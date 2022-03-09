@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.custom_input_inn {
+    padding: 50px 0;
+    text-align: center;
+}
+.custominputlabel input[type="file"] {
+    display: none;
+}
+label.custominputlabel {
+    background-color: #000;
+    border-radius: 30px;
+    color: #fff;
+    padding: 10px 30px 12px;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: bold;
+}
+label.custominputlabel:hover {
+	cursor: pointer;
+}
